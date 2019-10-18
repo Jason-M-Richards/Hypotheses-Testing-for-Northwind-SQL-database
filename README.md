@@ -33,17 +33,17 @@ The data is provided via a SQLite database. After glancing through the tables in
 #### Ha = Discounts do have a significant positive effect on the number of products customers order.
 
 
-### Question 2: Did any discontinued products have a significant effect on order quantity to justify replacement?¶
+### Question 2: Did any discontinued products have a significant effect on order quantity to justify replacement?
 
-#### Ho = Discontinued products had no effect on order quantity.¶
+#### Ho = Discontinued products had no effect on order quantity.
 #### Ha = There are one or more discontinued products that had a positive effect on order quantity
 
-### Question 3: Is there a region that expansion should be focused?¶
+### Question 3: Is there a region that expansion should be focused?
 
 #### Ho = There is no significant difference in total sales between regions.
 #### Ha = There is a significant proportion of total sales in certain region(s).
 
 ### Question 4: Do any categories significantly underperform/outperform?
 
-#### Ho = All categories of products perform the same¶
+#### Ho = All categories of products perform the same.
 #### Ha = There are one or more categories of products that either underperform or outperform others.
