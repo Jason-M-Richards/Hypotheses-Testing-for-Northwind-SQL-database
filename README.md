@@ -23,18 +23,27 @@ The data is provided via a SQLite database. After glancing through the tables in
 
 ## Hypothesis Testing
 
+### Decision Tree for Type of Test to be Used
+
+add img[hyp](Hypothesis-Test-Decision-Tree_GoLeanSixSigma.com_.png)
+
 ### Question 1: Do discounts have a statistically significant effect on the number of products customers order? If so, at what level(s) of discount?
 
 #### Ho = Discounts do not have a significant effect on the number of products customers order.
 #### Ha = Discounts do have a significant positive effect on the number of products customers order.
 
-After cleaning and setting the data for this experiment:
 
-### Step 1: Run a normality test on both control and experiment datasets using Scipy's Shapiro test:
+### Question 2: Did any discontinued products have a significant effect on order quantity to justify replacement?¶
 
-control - (0.8434571027755737, 3.803856556577728e-34) - normally distributed
-experiment - (0.8673426508903503, 6.471277454941499e-26) - normally distributed
+#### Ho = Discontinued products had no effect on order quantity.¶
+#### Ha = There are one or more discontinued products that had a positive effect on order quantity
 
-### Step 2: Run a visual probability distributions graph to see if there are differences between the means and standard deviations.
+### Question 3: Is there a region that expansion should be focused?¶
 
-add img[pdf](pdf.png)
+#### Ho = There is no significant difference in total sales between regions.
+#### Ha = There is a significant proportion of total sales in certain region(s).
+
+### Question 4: Do any categories significantly underperform/outperform?
+
+#### Ho = All categories of products perform the same¶
+#### Ha = There are one or more categories of products that either underperform or outperform others.
