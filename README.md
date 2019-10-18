@@ -25,7 +25,7 @@ The data is provided via a SQLite database. After glancing through the tables in
 
 ### Decision Tree for Type of Test to be Used
 
-add img[hyp](Hypothesis-Test-Decision-Tree_GoLeanSixSigma.com_.png)
+![hyp](Hypothesis-Test-Decision-Tree_GoLeanSixSigma.com_.png)
 
 ### Question 1: Do discounts have a statistically significant effect on the number of products customers order? If so, at what level(s) of discount?
 
